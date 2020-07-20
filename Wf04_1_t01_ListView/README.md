@@ -14,10 +14,11 @@
 
 Проявіть творчість.
 
+
 # Результат
 ![ScreenShot](ScreenShot02.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNTAwNjYxNV19
+eyJoaXN0b3J5IjpbMzY3MDY4Mzc1XX0=
 -->
