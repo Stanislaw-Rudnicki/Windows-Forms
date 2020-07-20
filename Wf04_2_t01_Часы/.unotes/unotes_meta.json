@@ -1,0 +1,27 @@
+{
+  "name": "",
+  "isOrdered": true,
+  "folders": {
+    "bin": {
+      "name": "bin",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "obj": {
+      "name": "obj",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "Properties": {
+      "name": "Properties",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    }
+  },
+  "files": {
+    "README": 0
+  }
+}
