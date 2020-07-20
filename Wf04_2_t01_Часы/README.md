@@ -1,7 +1,7 @@
+Написати програму годинник. Програма повинна розміщуватись поверх всіх
+вікон.
 
 
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEyMDc2NTAwOThdfQ==
 -->
