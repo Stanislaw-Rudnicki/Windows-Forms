@@ -2,6 +2,8 @@
 
 Разработать программу вычисления значений функции
 
+![formula](https://render.githubusercontent.com/render/math?math="y = f(x) = \begin{cases} f_1(x), &\text{если } x \le 0 \\ f_2(x), &\text{если } 0 < x \le a \\ f_3(x), &\text{если } x > a \end{cases}"
+
 $$
 y = f(x) = \begin{cases}
    f_1(x), &\text{если } x \le 0 \\

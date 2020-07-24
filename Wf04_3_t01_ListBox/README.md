@@ -15,11 +15,3 @@
 # Результат
 
 ![ScreenShot](ScreenShot02.png)
-
-$$
-y = f(x) = \begin{cases}
-   f_1(x), &\text{если } x \le 0 \\
-   f_2(x), &\text{если } 0 < x \le a \\
-   f_3(x), &\text{если } x > a
-\end{cases}
-$$
