@@ -2,15 +2,7 @@
 
 Разработать программу вычисления значений функции
 
-![formula](https://render.githubusercontent.com/render/math?math=y%20%3D%20f%28x%29%20%3D%20%5Cbegin%7Bcases%7D%20f_1%28x%29%2C%20%26%5Ctext%7B%u0435%u0441%u043B%u0438%20%7D%20x%20%5Cle%200%20%5C%5C%20f_2%28x%29%2C%20%26%5Ctext%7B%u0435%u0441%u043B%u0438%20%7D%200%20%3C%20x%20%5Cle%20a%20%5C%5C%20f_3%28x%29%2C%20%26%5Ctext%7B%u0435%u0441%u043B%u0438%20%7D%20x%20%3E%20a%20%5Cend%7Bcases%7D
-
-$$
-y = f(x) = \begin{cases}
-   f_1(x), &\text{если } x \le 0 \\
-   f_2(x), &\text{если } 0 < x \le a \\
-   f_3(x), &\text{если } x > a
-\end{cases}
-$$
+![Formula](ScreenShot04.png)
 
 в диапазоне изменения аргумента х от хн до хк с шагом dx.
 В форме предусмотреть ввод значения параметра а, хн, хк, dx.
