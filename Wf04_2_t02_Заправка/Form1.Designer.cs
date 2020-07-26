@@ -111,7 +111,7 @@
             this.textBoxAmount.Location = new System.Drawing.Point(134, 158);
             this.textBoxAmount.Name = "textBoxAmount";
             this.textBoxAmount.ReadOnly = true;
-            this.textBoxAmount.Size = new System.Drawing.Size(83, 23);
+            this.textBoxAmount.Size = new System.Drawing.Size(83, 43);
             this.textBoxAmount.TabIndex = 5;
             // 
             // textBoxQuantity
@@ -119,7 +119,7 @@
             this.textBoxQuantity.ForeColor = System.Drawing.SystemColors.ControlText;
             this.textBoxQuantity.Location = new System.Drawing.Point(134, 123);
             this.textBoxQuantity.Name = "textBoxQuantity";
-            this.textBoxQuantity.Size = new System.Drawing.Size(83, 23);
+            this.textBoxQuantity.Size = new System.Drawing.Size(83, 43);
             this.textBoxQuantity.TabIndex = 3;
             // 
             // textBoxPrice
@@ -128,7 +128,7 @@
             this.textBoxPrice.Location = new System.Drawing.Point(84, 70);
             this.textBoxPrice.Name = "textBoxPrice";
             this.textBoxPrice.ReadOnly = true;
-            this.textBoxPrice.Size = new System.Drawing.Size(133, 23);
+            this.textBoxPrice.Size = new System.Drawing.Size(133, 43);
             this.textBoxPrice.TabIndex = 9;
             this.textBoxPrice.TabStop = false;
             // 
@@ -148,7 +148,7 @@
             this.radioButton2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.radioButton2.Location = new System.Drawing.Point(7, 50);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(55, 20);
+            this.radioButton2.Size = new System.Drawing.Size(114, 40);
             this.radioButton2.TabIndex = 4;
             this.radioButton2.Text = "Сума";
             this.radioButton2.UseVisualStyleBackColor = true;
@@ -160,7 +160,7 @@
             this.radioButton1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.radioButton1.Location = new System.Drawing.Point(7, 15);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(78, 20);
+            this.radioButton1.Size = new System.Drawing.Size(168, 40);
             this.radioButton1.TabIndex = 2;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Кількість";
@@ -174,7 +174,7 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(84, 23);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(133, 24);
+            this.comboBox1.Size = new System.Drawing.Size(133, 43);
             this.comboBox1.TabIndex = 1;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -184,7 +184,7 @@
             this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label5.Location = new System.Drawing.Point(223, 161);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(31, 16);
+            this.label5.Size = new System.Drawing.Size(70, 36);
             this.label5.TabIndex = 7;
             this.label5.Text = "грн.";
             // 
@@ -194,7 +194,7 @@
             this.label4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label4.Location = new System.Drawing.Point(223, 126);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(19, 16);
+            this.label4.Size = new System.Drawing.Size(41, 36);
             this.label4.TabIndex = 6;
             this.label4.Text = "л.";
             // 
@@ -204,7 +204,7 @@
             this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label3.Location = new System.Drawing.Point(223, 73);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 16);
+            this.label3.Size = new System.Drawing.Size(70, 36);
             this.label3.TabIndex = 5;
             this.label3.Text = "грн.";
             // 
@@ -214,7 +214,7 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label2.Location = new System.Drawing.Point(13, 73);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 16);
+            this.label2.Size = new System.Drawing.Size(76, 36);
             this.label2.TabIndex = 4;
             this.label2.Text = "Ціна";
             // 
@@ -224,7 +224,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label1.Location = new System.Drawing.Point(13, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 16);
+            this.label1.Size = new System.Drawing.Size(114, 36);
             this.label1.TabIndex = 3;
             this.label1.Text = "Бензин";
             // 
@@ -246,7 +246,7 @@
             this.label6.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label6.Location = new System.Drawing.Point(181, 53);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(31, 16);
+            this.label6.Size = new System.Drawing.Size(70, 36);
             this.label6.TabIndex = 8;
             this.label6.Text = "грн.";
             // 
@@ -305,7 +305,7 @@
             this.label9.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label9.Location = new System.Drawing.Point(181, 53);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(31, 16);
+            this.label9.Size = new System.Drawing.Size(70, 36);
             this.label9.TabIndex = 8;
             this.label9.Text = "грн.";
             // 
@@ -326,7 +326,7 @@
             this.checkBox4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.checkBox4.Location = new System.Drawing.Point(10, 163);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(86, 20);
+            this.checkBox4.Size = new System.Drawing.Size(187, 40);
             this.checkBox4.TabIndex = 11;
             this.checkBox4.Text = "Кока-кола";
             this.checkBox4.UseVisualStyleBackColor = true;
@@ -338,7 +338,7 @@
             this.checkBox3.ForeColor = System.Drawing.SystemColors.ControlText;
             this.checkBox3.Location = new System.Drawing.Point(10, 129);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(107, 20);
+            this.checkBox3.Size = new System.Drawing.Size(236, 40);
             this.checkBox3.TabIndex = 9;
             this.checkBox3.Text = "Картопля-фрі";
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -350,7 +350,7 @@
             this.checkBox2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.checkBox2.Location = new System.Drawing.Point(10, 94);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(88, 20);
+            this.checkBox2.Size = new System.Drawing.Size(191, 40);
             this.checkBox2.TabIndex = 7;
             this.checkBox2.Text = "Гамбургер";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -362,7 +362,7 @@
             this.checkBox1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.checkBox1.Location = new System.Drawing.Point(10, 60);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(72, 20);
+            this.checkBox1.Size = new System.Drawing.Size(150, 40);
             this.checkBox1.TabIndex = 5;
             this.checkBox1.Text = "Хот-дог";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -374,7 +374,7 @@
             this.textBoxCola.Location = new System.Drawing.Point(122, 161);
             this.textBoxCola.Name = "textBoxCola";
             this.textBoxCola.ReadOnly = true;
-            this.textBoxCola.Size = new System.Drawing.Size(57, 23);
+            this.textBoxCola.Size = new System.Drawing.Size(57, 43);
             this.textBoxCola.TabIndex = 18;
             this.textBoxCola.TabStop = false;
             this.textBoxCola.Text = "4,40";
@@ -384,7 +384,7 @@
             this.textBoxFries.Location = new System.Drawing.Point(122, 127);
             this.textBoxFries.Name = "textBoxFries";
             this.textBoxFries.ReadOnly = true;
-            this.textBoxFries.Size = new System.Drawing.Size(57, 23);
+            this.textBoxFries.Size = new System.Drawing.Size(57, 43);
             this.textBoxFries.TabIndex = 16;
             this.textBoxFries.TabStop = false;
             this.textBoxFries.Text = "5,40";
@@ -394,7 +394,7 @@
             this.textBoxHamburger.Location = new System.Drawing.Point(122, 92);
             this.textBoxHamburger.Name = "textBoxHamburger";
             this.textBoxHamburger.ReadOnly = true;
-            this.textBoxHamburger.Size = new System.Drawing.Size(57, 23);
+            this.textBoxHamburger.Size = new System.Drawing.Size(57, 43);
             this.textBoxHamburger.TabIndex = 14;
             this.textBoxHamburger.TabStop = false;
             this.textBoxHamburger.Text = "7,20";
@@ -405,7 +405,7 @@
             this.textBoxHotDog.Location = new System.Drawing.Point(122, 58);
             this.textBoxHotDog.Name = "textBoxHotDog";
             this.textBoxHotDog.ReadOnly = true;
-            this.textBoxHotDog.Size = new System.Drawing.Size(57, 23);
+            this.textBoxHotDog.Size = new System.Drawing.Size(57, 43);
             this.textBoxHotDog.TabIndex = 12;
             this.textBoxHotDog.TabStop = false;
             this.textBoxHotDog.Text = "4,00";
@@ -416,7 +416,7 @@
             this.label8.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label8.Location = new System.Drawing.Point(187, 26);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(60, 16);
+            this.label8.Size = new System.Drawing.Size(137, 36);
             this.label8.TabIndex = 10;
             this.label8.Text = "Кількість";
             // 
@@ -426,7 +426,7 @@
             this.label7.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label7.Location = new System.Drawing.Point(119, 26);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 16);
+            this.label7.Size = new System.Drawing.Size(76, 36);
             this.label7.TabIndex = 9;
             this.label7.Text = "Ціна";
             // 
@@ -440,7 +440,7 @@
             this.numericUpDownHotDogQty.Location = new System.Drawing.Point(190, 58);
             this.numericUpDownHotDogQty.Name = "numericUpDownHotDogQty";
             this.numericUpDownHotDogQty.ReadOnly = true;
-            this.numericUpDownHotDogQty.Size = new System.Drawing.Size(57, 23);
+            this.numericUpDownHotDogQty.Size = new System.Drawing.Size(57, 43);
             this.numericUpDownHotDogQty.TabIndex = 6;
             this.numericUpDownHotDogQty.ValueChanged += new System.EventHandler(this.numericUpDownHotDogQty_ValueChanged);
             // 
@@ -454,7 +454,7 @@
             this.numericUpDownHamburgerQty.Location = new System.Drawing.Point(190, 92);
             this.numericUpDownHamburgerQty.Name = "numericUpDownHamburgerQty";
             this.numericUpDownHamburgerQty.ReadOnly = true;
-            this.numericUpDownHamburgerQty.Size = new System.Drawing.Size(57, 23);
+            this.numericUpDownHamburgerQty.Size = new System.Drawing.Size(57, 43);
             this.numericUpDownHamburgerQty.TabIndex = 8;
             this.numericUpDownHamburgerQty.ValueChanged += new System.EventHandler(this.numericUpDownHamburgerQty_ValueChanged);
             // 
@@ -468,7 +468,7 @@
             this.numericUpDownFriesQty.Location = new System.Drawing.Point(190, 127);
             this.numericUpDownFriesQty.Name = "numericUpDownFriesQty";
             this.numericUpDownFriesQty.ReadOnly = true;
-            this.numericUpDownFriesQty.Size = new System.Drawing.Size(57, 23);
+            this.numericUpDownFriesQty.Size = new System.Drawing.Size(57, 43);
             this.numericUpDownFriesQty.TabIndex = 10;
             this.numericUpDownFriesQty.ValueChanged += new System.EventHandler(this.numericUpDownFriesQty_ValueChanged);
             // 
@@ -482,7 +482,7 @@
             this.numericUpDownColaQty.Location = new System.Drawing.Point(190, 161);
             this.numericUpDownColaQty.Name = "numericUpDownColaQty";
             this.numericUpDownColaQty.ReadOnly = true;
-            this.numericUpDownColaQty.Size = new System.Drawing.Size(57, 23);
+            this.numericUpDownColaQty.Size = new System.Drawing.Size(57, 43);
             this.numericUpDownColaQty.TabIndex = 12;
             this.numericUpDownColaQty.ValueChanged += new System.EventHandler(this.numericUpDownColaQty_ValueChanged);
             // 
@@ -537,7 +537,7 @@
             this.label10.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label10.Location = new System.Drawing.Point(449, 74);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(31, 16);
+            this.label10.Size = new System.Drawing.Size(70, 36);
             this.label10.TabIndex = 12;
             this.label10.Text = "грн.";
             // 
@@ -553,8 +553,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 35F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(577, 489);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox2);

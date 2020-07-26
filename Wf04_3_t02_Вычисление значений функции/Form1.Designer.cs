@@ -200,7 +200,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(550, 341);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(550, 340);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
@@ -209,9 +210,9 @@
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(566, 376);
+            this.MinimumSize = new System.Drawing.Size(566, 375);
             this.Name = "Form1";
-            this.Padding = new System.Windows.Forms.Padding(15);
+            this.Padding = new System.Windows.Forms.Padding(15, 15, 15, 15);
             this.Text = "Вычисление функции";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
