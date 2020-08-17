@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F5072474-0023-482E-A7C5-97797D1A2829}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Wf06_1_t01</RootNamespace>
+    <AssemblyName>Wf06_1_t01</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\add column.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\add row.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\add user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\alarm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\align bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\align center.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\align center1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\align columns.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\align left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\align right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\align top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\all borders.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\attention.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\back 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\balloon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\bold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\book 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\book bookmark 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\book bookmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\bottom border.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\bulb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\calendar 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\case.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\cd disk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\certificate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\choose language.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\close file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\database  add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\database delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\database-check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\decrease indent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\delete 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\delete column.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\delete database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\delete row.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\diagram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\display.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\envelope cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\envelope in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\envelope out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\envelope pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\envelope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\envelope-check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\favorites.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\fax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\find next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\flag green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\flag red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\flag yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\font background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\font сolor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\globe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\grow font.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\hard disk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\history.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\import camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\import scanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\increase indent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\increase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\insert table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\insert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\italic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\left border.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\magnifier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\marked list points.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\master.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\megaphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\merge cells.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\mouse cursor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\mouse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\no borders.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\note.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\numbered list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\open database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\open envelope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\open network file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\options.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\page settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\paper clip 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\paper clip 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\paper clip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\pencil ruler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\picture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\property.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\record.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\recycle bin sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\recycle bin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\reduce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\remove user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\replace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\rewind back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\rewind forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\right border.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\save as.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\search 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\search database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\shrink font.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\skip back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\skip forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\spell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\split cells.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\stop 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\strikeout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\subscript.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\superscript.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\top border.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\two displays.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\two pictures.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\underline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\unmerge cells.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="png\16x16\еxport.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

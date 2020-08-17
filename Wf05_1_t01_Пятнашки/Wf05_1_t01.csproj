@@ -35,6 +35,9 @@
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>15.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -85,37 +88,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="blur-texture-backgrounds\blurredbackground10.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="blur-texture-backgrounds\blurred-texture-background01.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="blur-texture-backgrounds\blurred-texture-background02.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="blur-texture-backgrounds\blurred-texture-background03.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="blur-texture-backgrounds\blurred-texture-background04.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="blur-texture-backgrounds\blurred-texture-background05.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="blur-texture-backgrounds\blurred-texture-background06.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="blur-texture-backgrounds\blurred-texture-background07.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="blur-texture-backgrounds\blurred-texture-background08.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="blur-texture-backgrounds\blurred-texture-background09.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="15.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

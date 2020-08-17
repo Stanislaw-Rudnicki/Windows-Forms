@@ -258,11 +258,12 @@ namespace Wf05_1_t01
                 puzzleCompleted = true;
                 timer1.Enabled = false;
                 player.Date = DateTime.Now;
-                players.Add(player);
+                players.Add(new Player { Name = player.Name, Date = player.Date, Time = player.Time, Turn = player.Turn });
                 saveList(fnamePlayers, players);
-                toolStripStatusLabel2.Text = "Рекорд: " + players.Where(p => p.Name == player.Name).Min(p => p.Turn);
+                toolStripStatusRecord.Text = "Рекорд: " + players.Where(p => p.Name == player.Name).Min(p => p.Turn);
                 ToolStripMenuSaveGame.Enabled = false;
                 recordsShowed = false;
+
             }
         }
 
@@ -323,13 +324,14 @@ namespace Wf05_1_t01
             {
                 player = new Player { Name = textBox1.Text.Trim(), Date = DateTime.Now, Time = TimeSpan.Zero, Turn = 0 };
                 toolStripStatusLabel1.Text = textBox1.Text.Trim();
-                toolStripStatusLabel2.Text = "Рекорд: " + 
+                toolStripStatusRecord.Text = "Рекорд: " + 
                     players.Where(p => p.Name == player.Name).Min(p => (int?)p.Turn).GetValueOrDefault(0);
                 ToolStripMenuNewPlayer.Enabled = true;
                 ToolStripMenuNewGame.Enabled = true;
                 ToolStripMenuSaveGame.Enabled = true;
                 panel1.Visible = false;
                 statusStrip1.Visible = true;
+                puzzleCompleted = false;
             }
             else
                 textBox1.Select();
@@ -356,6 +358,7 @@ namespace Wf05_1_t01
             panel2.Visible = false;
             ToolStripMenuItem6.BackColor = Color.FromArgb(48, 48, 48);
             statusStrip1.Visible = true;
+            puzzleCompleted = false;
         }
 
         // new player
@@ -391,8 +394,8 @@ namespace Wf05_1_t01
                     repaintField();
                     timer1.Enabled = false;
                     toolStripStatusLabel1.Text = player.Name;
-                    toolStripStatusLabel2.Text = "Рекорд: " +
-                        players.Where(p => p.Name == player.Name).Min(p => (int?)p.Turn).GetValueOrDefault(0);
+                    toolStripStatusRecord.Text = "Рекорд: " +
+                        players.Where(p => p.Name == player.Name).Min(pl => (int?)pl.Turn).GetValueOrDefault(0);
                     toolStripStatusLabel3.Text = "Ходiв: " + (player.Turn);
                     toolStripStatusLabel4.Text = player.Time.ToString(@"mm\:ss");
                     ToolStripMenuNewPlayer.Enabled = true;
