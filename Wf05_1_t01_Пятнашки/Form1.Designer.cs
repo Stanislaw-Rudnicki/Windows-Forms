@@ -355,7 +355,7 @@ namespace Wf05_1_t01
             // 
             this.ToolStripMenuNewPlayer.Enabled = false;
             this.ToolStripMenuNewPlayer.Name = "ToolStripMenuNewPlayer";
-            this.ToolStripMenuNewPlayer.Size = new System.Drawing.Size(180, 22);
+            this.ToolStripMenuNewPlayer.Size = new System.Drawing.Size(169, 22);
             this.ToolStripMenuNewPlayer.Text = "Новий гравець";
             this.ToolStripMenuNewPlayer.Click += new System.EventHandler(this.ToolStripMenuItem2_Click);
             // 
@@ -363,7 +363,7 @@ namespace Wf05_1_t01
             // 
             this.ToolStripMenuNewGame.Enabled = false;
             this.ToolStripMenuNewGame.Name = "ToolStripMenuNewGame";
-            this.ToolStripMenuNewGame.Size = new System.Drawing.Size(180, 22);
+            this.ToolStripMenuNewGame.Size = new System.Drawing.Size(169, 22);
             this.ToolStripMenuNewGame.Text = "Нова гра";
             this.ToolStripMenuNewGame.Click += new System.EventHandler(this.ToolStripMenuItem3_Click);
             // 
@@ -371,7 +371,7 @@ namespace Wf05_1_t01
             // 
             this.ToolStripMenuLoadGame.Enabled = false;
             this.ToolStripMenuLoadGame.Name = "ToolStripMenuLoadGame";
-            this.ToolStripMenuLoadGame.Size = new System.Drawing.Size(180, 22);
+            this.ToolStripMenuLoadGame.Size = new System.Drawing.Size(169, 22);
             this.ToolStripMenuLoadGame.Text = "Завантажити гру";
             this.ToolStripMenuLoadGame.Click += new System.EventHandler(this.ToolStripMenuItem4_Click);
             // 
@@ -379,7 +379,7 @@ namespace Wf05_1_t01
             // 
             this.ToolStripMenuSaveGame.Enabled = false;
             this.ToolStripMenuSaveGame.Name = "ToolStripMenuSaveGame";
-            this.ToolStripMenuSaveGame.Size = new System.Drawing.Size(180, 22);
+            this.ToolStripMenuSaveGame.Size = new System.Drawing.Size(169, 22);
             this.ToolStripMenuSaveGame.Text = "Зберегти гру";
             this.ToolStripMenuSaveGame.Click += new System.EventHandler(this.ToolStripMenuItem5_Click);
             // 
@@ -415,19 +415,19 @@ namespace Wf05_1_t01
             this.toolStripStatusLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.toolStripStatusLabel1.Margin = new System.Windows.Forms.Padding(6, 3, 0, 5);
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(95, 14);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(94, 14);
             this.toolStripStatusLabel1.Spring = true;
             this.toolStripStatusLabel1.Text = "Name";
             this.toolStripStatusLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // toolStripStatusLabel2
+            // toolStripStatusRecord
             // 
             this.toolStripStatusRecord.BorderStyle = System.Windows.Forms.Border3DStyle.Sunken;
             this.toolStripStatusRecord.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.toolStripStatusRecord.Margin = new System.Windows.Forms.Padding(0, 3, 0, 5);
-            this.toolStripStatusRecord.Name = "toolStripStatusLabel2";
+            this.toolStripStatusRecord.Name = "toolStripStatusRecord";
             this.toolStripStatusRecord.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.toolStripStatusRecord.Size = new System.Drawing.Size(101, 14);
+            this.toolStripStatusRecord.Size = new System.Drawing.Size(100, 14);
             this.toolStripStatusRecord.Spring = true;
             this.toolStripStatusRecord.Text = "Рекорд: 0";
             // 
@@ -438,7 +438,7 @@ namespace Wf05_1_t01
             this.toolStripStatusLabel3.Margin = new System.Windows.Forms.Padding(0, 3, 0, 5);
             this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
             this.toolStripStatusLabel3.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.toolStripStatusLabel3.Size = new System.Drawing.Size(101, 14);
+            this.toolStripStatusLabel3.Size = new System.Drawing.Size(100, 14);
             this.toolStripStatusLabel3.Spring = true;
             this.toolStripStatusLabel3.Text = "Ходів: 0";
             // 
@@ -449,7 +449,7 @@ namespace Wf05_1_t01
             this.toolStripStatusLabel4.Margin = new System.Windows.Forms.Padding(0, 3, 0, 5);
             this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
             this.toolStripStatusLabel4.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.toolStripStatusLabel4.Size = new System.Drawing.Size(39, 14);
+            this.toolStripStatusLabel4.Size = new System.Drawing.Size(43, 14);
             this.toolStripStatusLabel4.Text = "00:00";
             this.toolStripStatusLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
